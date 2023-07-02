@@ -1,0 +1,7 @@
+{
+    "args": {},
+    "build_from": {
+        "aarch64": "hassioaddons/base-python-aarch64:5.2.0",
+        "amd64": "hassioaddons/base-python-amd64:5.2.0"
+    }
+}
