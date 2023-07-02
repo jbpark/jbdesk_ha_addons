@@ -3,6 +3,9 @@ ARG BUILD_FROM
 #ARG BUILD_FROM=python:3.6
 FROM $BUILD_FROM
 
+# Set shell
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
 # Setup base
 #ARG BUILD_ARCH=amd64
 
