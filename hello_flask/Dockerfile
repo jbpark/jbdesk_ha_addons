@@ -6,6 +6,7 @@ FROM ${BUILD_FROM}
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Copy data for add-on
+COPY app.py /
 COPY run.sh /
 COPY requirements.txt /tmp/
 # Install requirements for add-on
